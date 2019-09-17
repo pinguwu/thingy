@@ -9,7 +9,7 @@ $(document).ready( function () {
     this.y = 300;
     
     this.draw = function (thisX, thatY) {
-      ctx.strokeStyle("#000000");
+      ctx.strokeStyle = "#000000";
       ctx.beginPath();
       ctx.arc(thisX, thatY, 20, 0, Math.PI * 2, false);
       ctx.stroke();
