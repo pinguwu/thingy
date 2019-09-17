@@ -18,6 +18,8 @@ $(document).ready( function () {
   
   var player = new Ball();
   
-  player.draw(player.x, player.y);
+  console.log(player.x);
+  console.log(player.y);
+  player.draw(50, 300);
 });
        
