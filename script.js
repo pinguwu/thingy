@@ -4,7 +4,7 @@ $(document).ready( function () {
   var ctx = canvas.getContext("2d");
   
   // jumper?
-  var Player = function () {
+  var Ball = function () {
     this.x = 50;
     this.y = 300;
     
@@ -14,5 +14,9 @@ $(document).ready( function () {
       ctx.stroke();
     }
   }
+  
+  var player = new Ball();
+  
+  player.draw(player.x, player.y);
 });
        
